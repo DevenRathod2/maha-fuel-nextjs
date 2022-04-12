@@ -107,7 +107,7 @@ export default function Home() {
         </div>
 
         <div className={styles.credit_section}>
-          <h3>Build with   🧡  By <a target="_blank" href="https://github.com/devenrathod2">Deven Rathod</a></h3>
+          <h3>Build with   🧡  By <a  href="https://github.com/devenrathod2">Deven Rathod</a></h3>
       </div>
       </main>
     </div>
