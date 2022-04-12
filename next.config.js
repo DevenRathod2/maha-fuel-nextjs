@@ -4,3 +4,14 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  async rewrites() {
+      return [
+        {
+          source: '/',
+          destination: 'https://fule-api-india.herokuapp.com/:path*',
+        },
+      ]
+    },
+};
